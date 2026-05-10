@@ -71,7 +71,7 @@ const buildEmailContent = function (response) {
   // because notion randomizer is not good enough.
   const shuffledArray = [...vocabularies];
   shuffleArray(shuffledArray);
-  const randomizedVocabs = shuffledArray.slice(0, 15);
+  const randomizedVocabs = shuffledArray.slice(0, 20);
 
   console.log("Today's vocab:");
   console.log(randomizedVocabs);
